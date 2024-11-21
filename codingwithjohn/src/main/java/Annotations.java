@@ -10,5 +10,17 @@ public class Annotations {
 
         if (Triangle.class.isAnnotationPresent(Important.class))
             System.out.println("A triangle is important");
+        else
+            System.out.println("A triangle is not important");
+
+        if (Square.class.isAnnotationPresent(Important.class))
+            System.out.println("A square is important");
+        else
+            System.out.println("A square is not important");
+
+        if (Circle.class.isAnnotationPresent(Important.class))
+            System.out.println("A circle is important");
+        else
+            System.out.println("A circle is not important");
     }
 }

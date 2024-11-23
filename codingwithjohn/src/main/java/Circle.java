@@ -1,3 +1,3 @@
 @Important
-public class Circle {
+public class Circle extends Shape{
 }

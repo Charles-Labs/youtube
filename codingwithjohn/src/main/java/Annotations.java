@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Annotations {
@@ -8,14 +9,7 @@ public class Annotations {
     }
 
     public static void printImportant(){
-        Triangle triangle = new Triangle();
-        Square square = new Square();
-        Circle circle = new Circle();
-
-        List<Shape> shapes = new ArrayList<>();
-        shapes.add(triangle);
-        shapes.add(square);
-        shapes.add(circle);
+        List<Shape> shapes = Arrays.asList(new Triangle(), new Square(), new Circle());
 
         for (Shape shape: shapes){
             if (Shape.class.isAnnotationPresent(Important.class))

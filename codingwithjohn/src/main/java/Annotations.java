@@ -9,7 +9,9 @@ public class Annotations {
     }
 
     public static void printImportant(){
-        List<Shape> shapes = Arrays.asList(new Triangle(), new Square(), new Circle());
+        List<Shape> shapes = Arrays.asList(new Triangle("triangle"),
+                new Square("square"),
+                new Circle("circle"));
 
         for (Shape shape: shapes){
             if (Shape.class.isAnnotationPresent(Important.class))

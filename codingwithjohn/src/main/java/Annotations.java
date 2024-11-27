@@ -8,31 +8,16 @@ public class Annotations {
         printImportant();
     }
 
-    public static void printImportant(){
+    public static void printImportant() {
         List<Shape> shapes = Arrays.asList(new Triangle("triangle"),
                 new Square("square"),
                 new Circle("circle"));
 
-        for (Shape shape: shapes){
+        for (Shape shape : shapes) {
             if (Shape.class.isAnnotationPresent(Important.class))
                 System.out.println("A " + shape.getType() + " is important");
             else
                 System.out.println("A " + shape.getType() + " is not important");
         }
-
-        if (Triangle.class.isAnnotationPresent(Important.class))
-            System.out.println("A triangle is important");
-        else
-            System.out.println("A triangle is not important");
-
-        if (Square.class.isAnnotationPresent(Important.class))
-            System.out.println("A square is important");
-        else
-            System.out.println("A square is not important");
-
-        if (Circle.class.isAnnotationPresent(Important.class))
-            System.out.println("A circle is important");
-        else
-            System.out.println("A circle is not important");
     }
 }

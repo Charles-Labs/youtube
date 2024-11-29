@@ -3,5 +3,5 @@ import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Important {
-    public String howImportant();
+    public String howImportant() default "Normal";
 }

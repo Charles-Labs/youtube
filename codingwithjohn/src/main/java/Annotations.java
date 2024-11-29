@@ -15,7 +15,7 @@ public class Annotations {
 
         for (Shape shape : shapes) {
             if (shape.getClass().isAnnotationPresent(Important.class))
-                System.out.println("A " + shape.getType() + " is important");
+                System.out.println("A " + shape.getType() + " is important. How important? ");
             else
                 System.out.println("A " + shape.getType() + " is not important");
         }

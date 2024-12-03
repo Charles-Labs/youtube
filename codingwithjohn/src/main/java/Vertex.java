@@ -1,7 +1,7 @@
 public class Vertex {
-    private int xPos, yPos, zPos;
+    private double xPos, yPos, zPos;
 
-    public Vertex(int xPos, int yPos, int zPos) {
+    public Vertex(double xPos, double yPos, double zPos) {
         this.xPos = xPos;
         this.yPos = yPos;
         this.zPos = zPos;

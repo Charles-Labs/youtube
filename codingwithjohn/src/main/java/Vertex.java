@@ -6,4 +6,28 @@ public class Vertex {
         this.yPos = yPos;
         this.zPos = zPos;
     }
+
+    public double getxPos() {
+        return xPos;
+    }
+
+    public void setxPos(double xPos) {
+        this.xPos = xPos;
+    }
+
+    public double getyPos() {
+        return yPos;
+    }
+
+    public void setyPos(double yPos) {
+        this.yPos = yPos;
+    }
+
+    public double getzPos() {
+        return zPos;
+    }
+
+    public void setzPos(double zPos) {
+        this.zPos = zPos;
+    }
 }

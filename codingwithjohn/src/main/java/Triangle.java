@@ -7,7 +7,9 @@ public class Triangle extends Shape{
     }
 
     public void setVertices(Vertex[] vertices){
-        
+        this.vertexA = vertices[0];
+        this.vertexB = vertices[1];
+        this.vertexC = vertices[2];
     }
 
     public Vertex getVertexA() {

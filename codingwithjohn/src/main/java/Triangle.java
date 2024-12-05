@@ -6,6 +6,10 @@ public class Triangle extends Shape{
         super(type);
     }
 
+    public void setVertices(Vertex[] vertices){
+        
+    }
+
     public Vertex getVertexA() {
         return vertexA;
     }

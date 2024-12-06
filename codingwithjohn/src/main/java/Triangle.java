@@ -7,6 +7,9 @@ public class Triangle extends Shape{
     }
 
     public void setVertices(Vertex[] vertices){
+        if (vertices.length != 3)
+            throw new IllegalArgumentException("A triangle has three vertices");
+
         this.vertexA = vertices[0];
         this.vertexB = vertices[1];
         this.vertexC = vertices[2];

@@ -1,8 +1,11 @@
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 class TriangleTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void testSetVertices() {
+        Assertions.assertThrows(IllegalArgumentException.class,
+                () -> new Triangle("triangle"));
     }
 }

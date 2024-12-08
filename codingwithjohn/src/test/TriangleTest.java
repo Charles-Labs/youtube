@@ -6,6 +6,14 @@ class TriangleTest {
     @Test
     void testSetVertices() {
         Assertions.assertThrows(IllegalArgumentException.class,
-                () -> new Triangle("triangle"));
+                () -> {
+                    Triangle triangle = new Triangle("triangle");
+
+                    triangle.setVertices(new Vertex[]{
+                            new Vertex(1,2,3),
+                            new Vertex(1,2,3),
+                            new Vertex(1,2,3),
+                            new Vertex(1,2,3)});
+                });
     }
 }

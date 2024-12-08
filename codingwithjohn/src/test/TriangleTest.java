@@ -9,11 +9,10 @@ class TriangleTest {
                 () -> {
                     Triangle triangle = new Triangle("triangle");
 
-                    triangle.setVertices(new Vertex[]{
+                    triangle.setVertices(new Vertex(1,2,3),
                             new Vertex(1,2,3),
                             new Vertex(1,2,3),
-                            new Vertex(1,2,3),
-                            new Vertex(1,2,3)});
+                            new Vertex(1,2,3));
                 });
     }
 }

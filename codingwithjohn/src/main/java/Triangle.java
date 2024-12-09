@@ -15,6 +15,10 @@ public class Triangle extends Shape{
         this.vertexC = vertices[2];
     }
 
+    public Vertex[] getVertices(){
+        return new Vertex[] {vertexA, vertexB, vertexB};
+    }
+
     public Vertex getVertexA() {
         return vertexA;
     }

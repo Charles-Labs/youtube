@@ -1,3 +1,5 @@
+package annotations;
+
 public class Vertex {
     private double xPos, yPos, zPos;
 

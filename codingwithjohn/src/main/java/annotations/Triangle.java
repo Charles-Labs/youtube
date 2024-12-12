@@ -1,4 +1,7 @@
+package annotations;
+
 @Important
+@Dimension
 public class Triangle extends Shape{
     private Vertex vertexA, vertexB, vertexC;
 

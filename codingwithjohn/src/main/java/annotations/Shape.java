@@ -1,3 +1,5 @@
+package annotations;
+
 public class Shape {
     private final String type;
 

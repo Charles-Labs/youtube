@@ -1,4 +1,4 @@
 package annotations.engine;
 
-public class PhysicsEngine {
+public class PhysicsEngine extends Engine{
 }

@@ -6,4 +6,8 @@ public class PhysicsEngine extends Engine{
     public PhysicsEngine(int gravity) {
         this.gravity = gravity;
     }
+
+    public int pull(int object){
+        return 0;
+    }
 }

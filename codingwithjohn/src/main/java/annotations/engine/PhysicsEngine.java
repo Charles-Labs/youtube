@@ -1,6 +1,6 @@
 package annotations.engine;
 
-public class PhysicsEngine extends Engine{
+public class PhysicsEngine extends Engine implements Gravity{
     private final int gravity;
 
     public PhysicsEngine(int gravity) {

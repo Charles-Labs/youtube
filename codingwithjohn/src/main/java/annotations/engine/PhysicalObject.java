@@ -1,5 +1,5 @@
 package annotations.engine;
 
 public interface PhysicalObject {
-    private int mass;
+    int mass = 0;
 }

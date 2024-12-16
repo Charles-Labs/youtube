@@ -1,5 +1,9 @@
 package annotations.engine;
 
-public interface PhysicalObject {
-    int mass = 0;
+public class PhysicalObject {
+    private int mass;
+
+    public PhysicalObject(){
+        mass = 0;
+    }
 }

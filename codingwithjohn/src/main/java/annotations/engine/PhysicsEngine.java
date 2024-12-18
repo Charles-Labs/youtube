@@ -8,7 +8,7 @@ public class PhysicsEngine extends Engine implements Gravity{
     }
 
     @Override
-    public double pull(int object){
+    public double pull(PhysicalObject object){
         return 0;
     }
 }

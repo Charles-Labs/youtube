@@ -1,5 +1,5 @@
 package annotations.engine;
 
-public interface Gravity {
-    double pull(int object);
+public interface Gravity<T> {
+    double pull(T object);
 }

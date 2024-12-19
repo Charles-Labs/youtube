@@ -1,6 +1,6 @@
 package annotations.engine;
 
-public class PhysicsEngine extends Engine implements Gravity{
+public class PhysicsEngine extends Engine implements Gravity<PhysicalObject>{
     private final int gravity;
 
     public PhysicsEngine(int gravity) {
@@ -9,6 +9,6 @@ public class PhysicsEngine extends Engine implements Gravity{
 
     @Override
     public double pull(PhysicalObject object){
-        return 0;
+        return object.getMass() * gravity;
     }
 }

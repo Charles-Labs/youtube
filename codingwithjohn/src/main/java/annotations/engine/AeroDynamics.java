@@ -1,4 +1,4 @@
 package annotations.engine;
 
-public interface AeroDynamics {
+public interface AeroDynamics<T extends PhysicalObject> {
 }

@@ -1,4 +1,4 @@
-package annotations.engine;
+package annotations.jEngine.engine;
 
 public interface Gravity<T extends PhysicalObject> {
 

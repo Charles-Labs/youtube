@@ -1,4 +1,4 @@
-package annotations.engine;
+package annotations.jEngine.engine;
 
 public class PhysicsEngine extends Engine implements Gravity<PhysicalObject>{
     private final int gravity;

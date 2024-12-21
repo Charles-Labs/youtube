@@ -1,4 +1,4 @@
-package annotations.engine;
+package annotations.jEngine.engine;
 
 public class PhysicalObject {
     private int mass;

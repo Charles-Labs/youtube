@@ -1,5 +1,6 @@
 package annotations;
 
+import annotations.jEngine.model.Triangle;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

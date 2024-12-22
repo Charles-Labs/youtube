@@ -1,8 +1,13 @@
-package annotations;
+package annotations.jEngine.model;
+
+import annotations.Dimension;
+import annotations.Important;
+import annotations.Shape;
+import annotations.Vertex;
 
 @Important
 @Dimension
-public class Triangle extends Shape{
+public class Triangle extends Shape {
     private Vertex vertexA, vertexB, vertexC;
 
     public Triangle(String type) {

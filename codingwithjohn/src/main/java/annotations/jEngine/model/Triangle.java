@@ -3,7 +3,6 @@ package annotations.jEngine.model;
 import annotations.Dimension;
 import annotations.Important;
 import annotations.Shape;
-import annotations.Vertex;
 
 @Important
 @Dimension

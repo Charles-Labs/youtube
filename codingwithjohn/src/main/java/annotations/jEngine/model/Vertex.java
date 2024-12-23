@@ -1,4 +1,4 @@
-package annotations;
+package annotations.jEngine.model;
 
 public class Vertex {
     private double xPos, yPos, zPos;

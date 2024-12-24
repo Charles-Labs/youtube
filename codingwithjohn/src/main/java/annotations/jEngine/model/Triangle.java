@@ -2,7 +2,7 @@ package annotations.jEngine.model;
 
 import annotations.Dimension;
 import annotations.Important;
-import annotations.Shape;
+import annotations.shapes.Shape;
 
 @Important
 @Dimension

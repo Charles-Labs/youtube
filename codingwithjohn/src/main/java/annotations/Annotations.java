@@ -1,6 +1,8 @@
 package annotations;
 
 import annotations.jEngine.model.Triangle;
+import annotations.shapes.Circle;
+import annotations.shapes.Shape;
 
 import java.util.Arrays;
 import java.util.List;

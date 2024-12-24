@@ -1,4 +1,4 @@
-package annotations;
+package annotations.shapes;
 
 public class Shape {
     private final String type;

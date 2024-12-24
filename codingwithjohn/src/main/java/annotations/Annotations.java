@@ -3,6 +3,7 @@ package annotations;
 import annotations.jEngine.model.Triangle;
 import annotations.shapes.Circle;
 import annotations.shapes.Shape;
+import annotations.shapes.Square;
 
 import java.util.Arrays;
 import java.util.List;

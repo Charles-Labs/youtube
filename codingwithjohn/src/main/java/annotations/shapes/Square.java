@@ -1,6 +1,4 @@
-package annotations;
-
-import annotations.shapes.Shape;
+package annotations.shapes;
 
 public class Square extends Shape {
     public Square(String type) {

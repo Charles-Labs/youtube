@@ -1,6 +1,6 @@
 package annotations.jEngine.model;
 
-import annotations.Dimension;
+import annotations.jEngine.annotations.Dimension;
 import annotations.Important;
 import annotations.shapes.Shape;
 
